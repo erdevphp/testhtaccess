@@ -1,0 +1,17 @@
+{
+    "name": "acer/php-ajax",
+    "description": "Login with ajax",
+    "autoload": {
+        "psr-4": {
+            "Acer\\PhpAjax\\": "src/",
+            "Core\\Controller\\": "core/controller"
+        }
+    },
+    "authors": [
+        {
+            "name": "Erdiwo",
+            "email": "erdie2anjaratiana1998@gmail.com"
+        }
+    ],
+    "require": {}
+}
