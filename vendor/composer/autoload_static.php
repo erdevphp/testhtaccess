@@ -10,10 +10,11 @@ class ComposerStaticInit1f2cffef3af90ed7d686cbd8438edfe7
         'C' => 
         array (
             'Core\\Controller\\' => 16,
+            'Core\\' => 5,
         ),
         'A' => 
         array (
-            'Acer\\PhpAjax\\' => 13,
+            'App\\' => 4,
         ),
     );
 
@@ -22,7 +23,11 @@ class ComposerStaticInit1f2cffef3af90ed7d686cbd8438edfe7
         array (
             0 => __DIR__ . '/../..' . '/core/controller',
         ),
-        'Acer\\PhpAjax\\' => 
+        'Core\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/core',
+        ),
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

@@ -3,7 +3,8 @@
     "description": "Login with ajax",
     "autoload": {
         "psr-4": {
-            "Acer\\PhpAjax\\": "src/",
+            "App\\": "src/",
+            "Core\\": "core/",
             "Core\\Controller\\": "core/controller"
         }
     },

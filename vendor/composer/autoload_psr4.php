@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Core\\Controller\\' => array($baseDir . '/core/controller'),
-    'Acer\\PhpAjax\\' => array($baseDir . '/src'),
+    'Core\\' => array($baseDir . '/core'),
+    'App\\' => array($baseDir . '/src'),
 );
