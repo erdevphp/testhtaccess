@@ -14,5 +14,7 @@
             "email": "erdie2anjaratiana1998@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "twig/twig": "^3.5"
+    }
 }

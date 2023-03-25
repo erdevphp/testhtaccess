@@ -13,8 +13,10 @@ $router = new Router($url);
 $router->get('/home', 'Home@index');
 $router->get('/about', 'Home@about');
 
-$router->get('/login', 'User@login');
-$router->get('/signin', 'User@signin');
+$router->get('/login', 'Authentication@login');
+$router->post('/login', 'Authentication@login');
+
+$router->get('/signin', 'Authentication@signin');
 
 try {
     $router->run();

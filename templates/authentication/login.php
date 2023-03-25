@@ -1,5 +1,5 @@
 <div class="container d-flex justify-content-center">
-    <form action="" class="col-6">
+    <form action="" class="col-6" id="login">
         <h1 class="text-center"><i class="fa-solid fa-wifi"></i> Connexion</h1>
         <div class="form-floating mb-3">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -10,7 +10,7 @@
             <label for="floatingPassword">Password</label>
         </div>
         <div class="mt-2">
-            <input type="submit" value="Se connecter" class="form-control btn btn-primary">
+            <input type="submit" value="Se connecter" name="login" class="form-control btn btn-primary">
         </div>
     </form>
 </div>

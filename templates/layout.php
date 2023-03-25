@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../assets/index.css">
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./assets/index.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
     <title>Erdiwo</title>
 </head>
 <body>
@@ -51,9 +51,9 @@
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script type="text/javascript" src="../assets/jquery/jquery.js"></script>
-<script src="../assets/popper/popper.js"></script>
-<script src="../assets/bootstrap/bootstrap.min.js"></script>
-<?= isset($blockJSPath) ? '<script src="../assets/'.$blockJSPath.'.js"></script>' : null ?>
+<script type="text/javascript" src="./assets/jquery/jquery.js"></script>
+<script src="./assets/popper/popper.js"></script>
+<script src="./assets/bootstrap/bootstrap.min.js"></script>
+<?= !empty($blockJSPath) ? '<script src="../assets/'.$blockJSPath.'.js"></script>' : null ?>
 </body>
 </html>
